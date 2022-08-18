@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  gap: 20px;
+}
+
+.MuiPaginationItem-page {
+  border-width: 1px !important;
+  color: #222 !important;
+  border-color: #fff5 !important;
+  color: #fff !important;
+}
+
+.MuiPaginationItem-outlinedPrimary.Mui-selected {
+  border-width: 1px !important;
+  color: #222 !important;
+  background-color: #a5f359 !important;
+  color: #222 !important;
+}
+
+.MuiPaginationItem-ellipsis {
+  color: #a5f359 !important;
+}
+
+.search {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.MuiOutlinedInput-root {
+  border-radius: 40px !important;
+}
+a {
+  text-decoration: none !important;
+}
+.text-white {
+  color: #fff !important;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+}
+.TextField-border-radius fieldset {
+  border-radius: 30px !important;
+  border-width: 2px;
+}
